@@ -1,0 +1,25 @@
+{
+  "name": "ever-campos-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "postbuild": "cp .next/server/app/index.html out/index.html"
+  },
+  "dependencies": {
+    "next": "^15.5.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.3",
+    "@types/node": "^22.5.2",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "typescript": "^5.5.3"
+  }
+}
