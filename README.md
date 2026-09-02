@@ -8,7 +8,6 @@ A modern portfolio site for Ever Campos, rebuilt from a static HTML/CSS/JS templ
 - Custom responsive visual design
 - Interactive project filtering
 - Structured portfolio content in `lib/portfolio-data.ts`
-- Featured EWAAC enterprise monorepo case-study card
 - Existing project links, resume link, GitHub, LinkedIn, and email preserved
 
 ## Development

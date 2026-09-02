@@ -4,11 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Ever Campos | Software Developer",
   description:
-    "Portfolio for Ever Campos, a Software Developer Associate building full-stack review tools, document workflows, and production web applications.",
+    "Portfolio for Ever Campos, a software developer building full-stack web applications.",
   openGraph: {
     title: "Ever Campos | Software Developer",
     description:
-      "Full-stack review tools, document workflows, and production web applications built with Next.js, React, TypeScript, tRPC, PostgreSQL, and more.",
+      "Full-stack web applications built with Next.js, React, TypeScript, and more.",
     type: "website",
   },
 };

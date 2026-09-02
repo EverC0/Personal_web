@@ -33,7 +33,7 @@ export default function Home() {
           <span className="eyebrow">{profile.role} / {profile.location}</span>
           <h1>{profile.headline}</h1>
           <p>
-            I’m a software developer working with TypeScript, Next.js, tRPC, and PostgreSQL. I enjoy
+            I’m a software developer working with TypeScript, Next.js, React, and Node. I enjoy
             building things end to end, working through complex problems, and getting a feature to the
             point where it feels solid, useful, and ready for people to use.
           </p>
@@ -51,7 +51,7 @@ export default function Home() {
           <div className="availability-card">
             <span>Full-stack focus</span>
             <strong>Interfaces, APIs, and product workflows</strong>
-            <p>Experience across review tools, document workflows, responsive UI, and data-backed features.</p>
+            <p>Experience across responsive UI, APIs, authentication, and data-backed features.</p>
           </div>
         </aside>
       </section>
@@ -73,9 +73,8 @@ export default function Home() {
         <div className="story-panel reveal">
           <p>
             My work sits between the interface people click and the systems that make it reliable:
-            document upload flows, review dashboards, auth, APIs, database-backed state, queues, and
-            AI-assisted analysis. I care about the small details that make a tool feel understandable,
-            especially when the workflow itself is complex.
+            auth, APIs, database-backed state, and AI-assisted features. I care about the small details
+            that make a tool feel understandable, especially when the workflow itself is complex.
           </p>
           <p>
             I started by building full-stack projects with React, Next.js, Firebase, Flask, Node, and Python.

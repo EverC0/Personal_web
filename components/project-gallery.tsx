@@ -12,8 +12,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           <Image src={project.image} alt="" fill sizes="(max-width: 900px) 100vw, 45vw" />
         ) : (
           <div className="private-visual">
-            <span>Private work</span>
-            <strong>EWAAC</strong>
+            <span>Project preview</span>
           </div>
         )}
       </div>
@@ -50,7 +49,7 @@ export function ProjectGallery() {
   const [activeCategory, setActiveCategory] = useState("Featured");
   const filteredProjects = useMemo(() => {
     if (activeCategory === "Featured") {
-      return projects.filter((project) => project.category === "Featured" || project.title.includes("Pantry") || project.title.includes("MyFlash"));
+      return projects.filter((project) => project.title.includes("Pantry") || project.title.includes("MyFlash"));
     }
 
     return projects.filter((project) => project.category === activeCategory);

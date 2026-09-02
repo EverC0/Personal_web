@@ -14,22 +14,19 @@ export type Project = {
 
 export const profile = {
   name: "Ever Campos",
-  role: "Software Developer Associate",
+  role: "Software Developer",
   headline: "Software developer building full-stack tools with care and clarity.",
   location: "Maryland, United States",
   email: "everrjc@gmail.com",
-  githubProfiles: [
-    { label: "Personal GitHub", href: "https://github.com/EverC0" },
-    { label: "Trenchant GitHub", href: "https://github.com/everco-tac" },
-  ],
+  githubProfiles: [{ label: "Personal GitHub", href: "https://github.com/EverC0" }],
   linkedin: "http://www.linkedin.com/in/ever-campos",
-  resume: "https://drive.google.com/file/d/1hB1NKcTzNib1Fn0wD19G_SCjNWrRVAUb/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1GO8NRS8WVRE9YZdOgUoZ283PfSLgp_PH/view?usp=sharing",
 };
 
 export const stats = [
-  { value: "Now", label: "software developer associate" },
-  { value: "TS", label: "Next.js and tRPC monorepos" },
-  { value: "AI", label: "document and review workflows" },
+  { value: "Full-stack", label: "web application developer" },
+  { value: "TS", label: "TypeScript and React apps" },
+  { value: "AI", label: "AI-powered product features" },
   { value: "UMD", label: "computer science background" },
 ];
 
@@ -40,11 +37,11 @@ export const skillGroups = [
   },
   {
     title: "Backend",
-    skills: ["tRPC", "Node.js", "Express", "Flask", "Firebase", "PostgreSQL"],
+    skills: ["Node.js", "Express", "Flask", "Firebase", "MongoDB"],
   },
   {
     title: "AI & Data",
-    skills: ["Azure OpenAI", "OpenAI API", "Python", "SQL", "RAG", "Document workflows"],
+    skills: ["OpenAI API", "Python", "SQL", "RAG", "Machine learning"],
   },
   {
     title: "Agentic Tools",
@@ -52,25 +49,13 @@ export const skillGroups = [
   },
   {
     title: "Workflow",
-    skills: ["Git", "Turborepo", "API design", "Code review", "Debugging", "Team communication"],
+    skills: ["Git", "API design", "Code review", "Debugging", "Team communication"],
   },
 ];
 
 export const projectCategories: ProjectCategory[] = ["Featured", "AI", "Full-stack", "Data", "Systems"];
 
 export const projects: Project[] = [
-  {
-    title: "Technical Review Analysis",
-    eyebrow: "Production full-stack review workflow",
-    summary:
-      "Led delivery of an AI-powered technical review tool in a TypeScript, Next.js, and tRPC monorepo, covering proposal upload, document extraction, analysis, manual edits, re-analysis, and PDF export workflows.",
-    impact:
-      "Built for government-facing evaluation teams, with secure tenant-aware backend services, PostgreSQL-backed data flows, queue jobs, Azure Document Intelligence, and Azure OpenAI.",
-    stack: ["Next.js", "React", "TypeScript", "tRPC", "PostgreSQL", "Azure OpenAI", "Queues", "PDF export"],
-    category: "Featured",
-    private: true,
-    links: [],
-  },
   {
     title: "Pantry Tracker",
     eyebrow: "AI inventory assistant",
@@ -164,10 +149,16 @@ export const projects: Project[] = [
 
 export const experience = [
   {
-    title: "Software Developer Associate, Trenchant Analytics",
-    date: "May 2025 - Present",
+    title: "Associate Developer, Trenchant Analytics",
+    date: "Aug 2025 - May 2026",
     description:
-      "Delivering production features in a TypeScript, Next.js, and tRPC monorepo, including document-ingestion workflows, responsive UI, API design, PostgreSQL-backed data flows, and AI-assisted review tools.",
+      "Developed and maintained production software applications while collaborating as part of a full-stack engineering team.",
+  },
+  {
+    title: "Software Engineer Intern, Trenchant Analytics",
+    date: "May 2025 - Jul 2025",
+    description:
+      "Contributed to the development and maintenance of production software applications as part of a collaborative engineering team.",
   },
   {
     title: "Software Engineer Intern, Gabriel AI",
