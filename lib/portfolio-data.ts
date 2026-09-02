@@ -14,8 +14,8 @@ export type Project = {
 
 export const profile = {
   name: "Ever Campos",
-  role: "Software Developer",
-  headline: "Software developer building full-stack tools with care and clarity.",
+  role: "Full-Stack Consultant",
+  headline: "Full-stack consultant building useful tools with care and clarity.",
   location: "Maryland, United States",
   email: "everrjc@gmail.com",
   githubProfiles: [{ label: "Personal GitHub", href: "https://github.com/EverC0" }],
@@ -49,7 +49,7 @@ export const skillGroups = [
   },
   {
     title: "Workflow",
-    skills: ["Git", "API design", "Code review", "Debugging", "Team communication"],
+    skills: ["Git", "API design", "Debugging", "Delivery planning", "Team communication"],
   },
 ];
 

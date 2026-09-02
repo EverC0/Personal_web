@@ -33,7 +33,7 @@ export default function Home() {
           <span className="eyebrow">{profile.role} / {profile.location}</span>
           <h1>{profile.headline}</h1>
           <p>
-            I’m a software developer working with TypeScript, Next.js, React, and Node. I enjoy
+            I’m a full-stack consultant working with TypeScript, Next.js, React, and Node. I enjoy
             building things end to end, working through complex problems, and getting a feature to the
             point where it feels solid, useful, and ready for people to use.
           </p>
@@ -126,7 +126,7 @@ export default function Home() {
           <span className="eyebrow">Next step</span>
           <h2>Let’s build something useful.</h2>
           <p>
-            I’m looking for software development roles where I can contribute to frontend, backend, AI-enabled,
+            I’m open to consultant and product-focused roles where I can contribute to frontend, backend, AI-enabled,
             or data-informed products. If the work helps people move faster or think clearer, I’m interested.
           </p>
         </div>
